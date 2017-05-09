@@ -1,5 +1,5 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/lvjc4vj3ia43ifor?svg=true)]
-(https://ci.appveyor.com/project/ebrucucen/phosphor)
+[![Build status](https://ci.appveyor.com/api/projects/status/lvjc4vj3ia43ifor?svg=true)](https://ci.appveyor.com/project/ebrucucen/phosphor)
+
 # Project Phosphor
 
 Phosphor is PowerShell module designed for generating user interfaces from PowerShell
