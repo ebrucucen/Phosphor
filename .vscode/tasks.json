@@ -45,6 +45,11 @@
             "suppressTaskName": true,
             "isBuildCommand": true,
             "args": [ "Invoke-Build RunModule" ]
+        },
+        {
+            "taskName":"node",
+            "command":"node",
+            "args":["{workspaceRoot}\\node_modules\\typescript\\bin\\tsc"]
         }
     ]
 }
