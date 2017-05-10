@@ -111,7 +111,7 @@ task BuildClient {
     Push-Location ./src/Phosphor.Client
     #npm install is part of appveyor install to test
     #exec { & npm install }
-    exec { & npm run tsc }
+    #exec { & npm run tsc }
     Pop-Location
 }
 
