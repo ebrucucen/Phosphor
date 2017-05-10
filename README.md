@@ -97,7 +97,7 @@ have a good reason to build manually.
 
    ```
    cd src/Phosphor.Client
-   npm install
+   npm install -g npm --silent
    npm run tsc
    ```
 
@@ -115,6 +115,9 @@ have a good reason to build manually.
    ```powershell
    # Show all modules
    Show-Module
+
+   #or add ShowInBrowser parameter to display as a tab on an open browser
+   Show-Module -ShowInBrowser
 
    # Show specific modules
    Show-Module -Module PowerShellGet, PackageManagement
