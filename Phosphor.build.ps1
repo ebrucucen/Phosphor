@@ -107,19 +107,12 @@ task BuildModule {
     exec { & $script:dotnetExe publish -c $Configuration .\src\Phosphor\Phosphor.csproj -f netstandard1.6 }
 }
 
-task BuildClient {
-    Push-Location ./src/Phosphor.Client
-    #npm install is part of appveyor install to test
-    #exec { & npm install }
-    #exec { & npm run tsc }
-    Pop-Location
-}
 
 task BuildElectron {
     # TODO: Build the Electron binaries here
 }
 
-task Build BuildModule, BuildClient
+task Build BuildModule
 
 task Test {
     # TODO: Add tests
