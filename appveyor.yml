@@ -26,8 +26,8 @@ environment:
 
 install:
   - ps: Install-Product node $env:nodejs_version
- # - npm install -g npm --silent
- # - npm install -g typescript
+  - npm install -g npm --silent
+  - npm install -g typescript
   - ps: |
       Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force | Out-Null
       Install-Module InvokeBuild -RequiredVersion 3.2.1 -Scope CurrentUser -Force | Out-Null
