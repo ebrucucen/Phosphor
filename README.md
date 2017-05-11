@@ -1,4 +1,21 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/1jia76x6f9xun2r7?svg=true)](https://ci.appveyor.com/project/ebrucucen/phosphor-92cwk)
+
+
+| 1: Node v6.9.2    | 2: Node v6.10.3   | 3: Node v6.10.4   | 4:Node v7         |
+|-------------------|-------------------|-------------------|-------------------|
+| [![v6.9.2][1]][build-link] | [![v6.10.3][2]][build-link] | [![v6.10.4][3]][build-link] |[![v7][4]][build-link] |
+
+
+[1]: https://appveyor-matrix-badges.herokuapp.com/repos/ebrucucen/phosphor-92cwk/branch/appveyornpm/1
+
+[2]: https://appveyor-matrix-badges.herokuapp.com/repos/ebrucucen/phosphor-92cwk/branch/appveyornpm/2
+
+[3]: https://appveyor-matrix-badges.herokuapp.com/repos/ebrucucen/phosphor-92cwk/branch/appveyornpm/3
+
+[4]: https://appveyor-matrix-badges.herokuapp.com/repos/ebrucucen/phosphor-92cwk/branch/appveyornpm/4
+
+[build-link]: https://ci.appveyor.com/project/phosphor-92cwk/appveyornpm
+
+
 
 # Project Phosphor
 
