@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/lvjc4vj3ia43ifor?svg=true)](https://ci.appveyor.com/project/ebrucucen/phosphor)
+[![Build status](https://ci.appveyor.com/api/projects/status/1jia76x6f9xun2r7?svg=true)](https://ci.appveyor.com/project/ebrucucen/phosphor-92cwk)
 
 # Project Phosphor
 
