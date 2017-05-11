@@ -11,7 +11,13 @@ environment:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true  # Don't download unneeded packages
   DOTNET_CLI_TELEMETRY_OPTOUT: true        # Don't send telemetry
   matrix:
+#https://github.com/PowerShell/vscode-powershell/blob/develop/appveyor.yml#L17
+    - nodejs_version: "6.9.2"
+#Readme suggests: 
     - nodejs_version: "6.10.2"
+#issue 26 failure:
+    - nodejs_version: "6.10.3"
+#latest version
     - nodejs_version: "7"
 #we can add if required
 #platform: 
@@ -20,8 +26,8 @@ environment:
 
 install:
   - ps: Install-Product node $env:nodejs_version
-  - npm install -g npm --silent
-  - npm install -g typescript
+ # - npm install -g npm --silent
+ # - npm install -g typescript
   - ps: |
       Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force | Out-Null
       Install-Module InvokeBuild -RequiredVersion 3.2.1 -Scope CurrentUser -Force | Out-Null
