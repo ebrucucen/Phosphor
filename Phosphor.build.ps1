@@ -113,8 +113,8 @@ task BuildElectron {
 }
 task BuildClient {
     Push-Location ./src/Phosphor.Client
-    exec { & npm install }
-    exec { & npm run tsc }
+    exec { & npm install --save-dev typescript}
+    exec { & npm run tsc  }
     Pop-Location
 }
 

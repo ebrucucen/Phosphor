@@ -97,7 +97,7 @@ have a good reason to build manually.
 
    ```
    cd src/Phosphor.Client
-   npm install -g npm --silent
+   npm install 
    npm run tsc
    ```
 
