@@ -111,8 +111,14 @@ task BuildModule {
 task BuildElectron {
     # TODO: Build the Electron binaries here
 }
+task BuildClient {
+    Push-Location ./src/Phosphor.Client
+    exec { & npm install }
+    exec { & npm run tsc }
+    Pop-Location
+}
 
-task Build BuildModule
+task Build BuildModule, BuildClient
 
 task Test {
     # TODO: Add tests
