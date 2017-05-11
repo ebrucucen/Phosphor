@@ -1,5 +1,17 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/lvjc4vj3ia43ifor?svg=true)](https://ci.appveyor.com/project/ebrucucen/phosphor)
-
+ | 1: Node v6.9.2    | 2: Node v6.10.3   | 3: Node v6.10.4   | 4:Node v7         |
+ |-------------------|-------------------|-------------------|-------------------|		
+ | [![v6.9.2][1]][build-link] | [![v6.10.3][2]][build-link] | [![v6.10.4][3]][build-link] |[![v7][4]][build-link] |		
+ 		
+ 		
+ [1]: https://appveyor-matrix-badges.herokuapp.com/repos/ebrucucen/phosphor-92cwk/branch/appveyornpm/1		
+ 		
+ [2]: https://appveyor-matrix-badges.herokuapp.com/repos/ebrucucen/phosphor/branch/master/2		
+ 		
+ [3]: https://appveyor-matrix-badges.herokuapp.com/repos/ebrucucen/phosphor/branch/master/3		
+ 		
+ [4]: https://appveyor-matrix-badges.herokuapp.com/repos/ebrucucen/phosphor/branch/master/4		
+ 		
+ [build-link]: https://ci.appveyor.com/project/phosphor/master
 # Project Phosphor
 
 Phosphor is PowerShell module designed for generating user interfaces from PowerShell
